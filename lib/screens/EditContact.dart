@@ -209,6 +209,7 @@ class _EditContactState extends State<EditContact> {
                           if(input!=null && input.isEmpty)
                             return 'This field is required';
                         },
+                        keyboardType: TextInputType.phone,
                         onChanged:onChangedPhone
                       ),
                       SizedBox(height: 10,),
